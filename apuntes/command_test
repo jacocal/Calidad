@@ -1,0 +1,1 @@
+system ../../googletest-master/googletest/include/ -pthread main.cc AlmacenFixture.h gtest_main.a -o prueba

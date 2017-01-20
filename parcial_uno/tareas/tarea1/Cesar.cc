@@ -17,7 +17,7 @@ std::string * Cesar::decrypt(char word[])
 	char complete[wordStr.size()];
 	int k = 0;
 
-	for (int i=0; i<27; i++){
+	for (int i=0; i<26; i++){
 		for(int j=0; j<wordStr.size(); j++)
 		{
 			char x = cesaAl(word[j], i);
