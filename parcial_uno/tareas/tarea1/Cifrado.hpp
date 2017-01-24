@@ -1,0 +1,7 @@
+fndef UNITARIAS_EJERCICIO03_CIFRADO_H_
+#define UNITARIAS_EJERCICIO03_CIFRADO_H_
+
+class Cifrado {
+};
+
+#endif
