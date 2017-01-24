@@ -1,1 +1,1 @@
-system ../../googletest-master/googletest/include/ -pthread main.cc AlmacenFixture.h gtest_main.a -o prueba
+g++ -isystem ../../googletest-master/googletest/include/ -pthread  Hierarchie.h typed_test.cc gtest_main.a -o prueba
