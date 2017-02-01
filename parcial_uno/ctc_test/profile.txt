@@ -1,0 +1,72 @@
+*****************************************************************************
+*           CTC++, Test Coverage Analyzer for C/C++, Version 8.1            *
+*                                                                           *
+*                         EXECUTION PROFILE LISTING                         *
+*                                                                           *
+*                    Copyright (c) 1993-2013 Testwell Oy                    *
+*             Copyright (c) 2013-2016 Verifysoft Technology GmbH            *
+*****************************************************************************
+
+
+License notice: This is a limited period evaluation copy license.
+
+Symbol file(s) used   : MON.sym (Tue Jan 31 08:22:11 2017)
+Data file(s) used     : MON.dat (Tue Jan 31 08:49:37 2017)
+Listing produced at   : Tue Jan 31 08:49:56 2017
+Coverage view         : As instrumented
+
+
+
+MONITORED SOURCE FILE : /home/jaco/Calidad/parcial_uno/ctc_test/viciesto.cpp
+INSTRUMENTATION MODE  : multicondition
+
+ HITS/TRUE      FALSE    LINE DESCRIPTION
+=============================================================================
+
+         4                  6 FUNCTION main()
+         4                 17   return 0
+                           19 }
+
+***TER 100 % (  2/  2) of FUNCTION main()
+       100 % (  5/  5) statement
+-----------------------------------------------------------------------------
+
+         4                 21 FUNCTION viciesto()
+         3          1      24   if (year % 4 == 0)
+         2          1      26     if (year % 100 == 0)
+         1          1      28       if (year % 400 == 0)
+         1                 30         return true
+                           31       }+
+                           31       else
+         1                 32         return false
+                           33       }-
+                           34     }+
+                           34     else
+         1                 35       return true
+                           36     }-
+                           37   }+
+                           37   else
+         1                 38     return false
+                           39   }-
+                           41 }
+
+***TER 100 % ( 11/ 11) of FUNCTION viciesto()
+       100 % (  7/  7) statement
+-----------------------------------------------------------------------------
+
+
+***TER 100 % ( 13/ 13) of FILE /home/jaco/Calidad/parcial_uno/ctc_test/viciesto.cpp
+       100 % ( 12/ 12) statement
+-----------------------------------------------------------------------------
+
+
+
+SUMMARY
+=======
+
+Source files       : 1
+Headers extracted  : 0
+Functions          : 2
+Source lines       : 41
+TER                : 100 % (13/13) multicondition
+TER                : 100 % (12/12) statement
