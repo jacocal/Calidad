@@ -1,0 +1,12 @@
+Almacen:
+	- linea 58
+
+VideoJuego:
+	- lineas 18-26
+	- lineas 32-27 
+	- lineas 54-64
+	- lineas 65-71
+	- lineas 86-96
+	- lineas 94-103
+	- lineas 118-128
+	- lineas 129-135
